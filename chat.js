@@ -1,3 +1,4 @@
+//-- this small snipped shows the usage of sockets with nodejs
 var net = require('net');
 var sockets = []; 
 var s = net.Server(function(socket){
